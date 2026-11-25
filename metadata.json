@@ -1,0 +1,40 @@
+{
+  "cli_version": "0.13.4",
+  "checkpoint_id": "01M889Q28TX1YPA9H441XBQCYQ",
+  "strategy": "manual-commit",
+  "branch": "opencode-validation",
+  "checkpoints_count": 3,
+  "files_touched": [
+    "junk-path-b-validation.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 188313,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 420592,
+    "output_tokens": 4038,
+    "api_call_count": 13
+  },
+  "redaction": {
+    "replacements": 6,
+    "layers": {
+      "betterleaks": 0,
+      "connection_string": 0,
+      "credential_key": 0,
+      "credential_value": 0,
+      "credentialed_uri": 0,
+      "entropy": 6,
+      "key_context": 0,
+      "provider_token": 0,
+      "shell_stdin": 0
+    }
+  }
+}
