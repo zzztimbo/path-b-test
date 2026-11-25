@@ -1,0 +1,43 @@
+{
+  "cli_version": "0.13.4",
+  "checkpoint_id": "01M88J4XW18TT1QQWJ22SJTM79",
+  "session_id": "ses_def6d93b2ffeAtzxEzxAwjQh47",
+  "strategy": "manual-commit",
+  "created_at": "2026-11-25T05:16:43.851626Z",
+  "branch": "opencode-validation",
+  "checkpoints_count": 2,
+  "save_step_count": 1,
+  "files_touched": [
+    "AGENTS.md"
+  ],
+  "agent": "OpenCode",
+  "model": "google/gemini-4-carbon",
+  "turn_id": "53d3724da503",
+  "checkpoint_transcript_start": 14,
+  "transcript_lines_at_start": 14,
+  "compact_transcript_start": 14,
+  "token_usage": {
+    "input_tokens": 581879,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 10728525,
+    "output_tokens": 26595,
+    "api_call_count": 107
+  },
+  "redaction": {
+    "replacements": 180,
+    "layers": {
+      "betterleaks": 4,
+      "connection_string": 0,
+      "credential_key": 0,
+      "credential_value": 0,
+      "credentialed_uri": 0,
+      "entropy": 1742,
+      "key_context": 0,
+      "provider_token": 0,
+      "shell_stdin": 0
+    }
+  },
+  "session_metrics": {
+    "turn_count": 5
+  }
+}
