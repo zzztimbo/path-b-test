@@ -1,0 +1,29 @@
+{
+  "checkpoints": {
+    "primary": {
+      "type": "git-refs"
+    }
+  },
+  "enabled": true,
+  "review_default_profile": "general",
+  "review_profiles": {
+    "general": {
+      "task": "Review this change for correctness, regressions, API design, missing tests, maintainability, and user-facing behavior changes. Return only real, actionable defects with concrete evidence and an exact code pointer. No praise, summaries, speculation, style preferences, or nice-to-have refactors.",
+      "agents": {
+        "pi:google-gemini-2-5-flash": {
+          "agent": "pi",
+          "model": "google/gemini-2.5-flash"
+        },
+        "pi:openrouter-baidu-ernie-5-5-flash-preview-free": {
+          "agent": "pi",
+          "model": "openrouter/baidu/ernie-5.5-flash-preview:free"
+        }
+      },
+      "judge": {
+        "agent": "pi",
+        "model": "freeflow/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      "output": "trail"
+    }
+  }
+}
