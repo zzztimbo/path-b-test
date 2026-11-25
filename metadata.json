@@ -2,7 +2,6 @@
   "cli_version": "0.13.4",
   "checkpoint_id": "01M8878YDH35YX7Z3803NJRAJ2",
   "strategy": "manual-commit",
-  "branch": "setup/entire-checkpoints",
   "checkpoints_count": 1,
   "files_touched": [
     "AGENTS.md"
@@ -13,16 +12,9 @@
       "transcript": "/0/full.jsonl",
       "compact_transcript": "/0/transcript.jsonl",
       "content_hash": "/0/content_hash.txt",
-      "prompt": "/0/prompt.txt"
+      "prompt": ""
     }
   ],
-  "token_usage": {
-    "input_tokens": 10503,
-    "cache_creation_tokens": 0,
-    "cache_read_tokens": 5772,
-    "output_tokens": 633,
-    "api_call_count": 2
-  },
   "redaction": {
     "replacements": 0,
     "layers": {
