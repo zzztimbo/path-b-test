@@ -1,0 +1,31 @@
+{
+  "checkpoints": {
+    "primary": {
+      "type": "git-refs"
+    }
+  },
+  "enabled": true,
+  "review_default_profile": "general",
+  "review_profiles": {
+    "general": {
+      "task": "Review this change for correctness, regressions, API design, missing tests, maintainability, and user-facing behavior changes. Return only real, actionable defects with concrete evidence and an exact code pointer. No praise, summaries, speculation, style preferences, or nice-to-have refactors.",
+      "agents": {
+        "pi:freeflow-nvidia-nemotron-3-5-lightning-free": {
+          "agent": "pi",
+          "model": "freeflow/nvidia/nemotron-3.5-lightning:free",
+          "prompt": "Review the change according to the profile task."
+        },
+        "pi:google-gemini-2-5-flash": {
+          "agent": "pi",
+          "model": "google/gemini-2.5-flash",
+          "prompt": "Review the change according to the profile task."
+        }
+      },
+      "judge": {
+        "agent": "pi",
+        "model": "google/gemini-4-carbon"
+      },
+      "output": "trail"
+    }
+  }
+}
